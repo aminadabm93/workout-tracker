@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/populate", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
-    useFindAndModify: falsee 
+    useFindAndModify: false 
 });
 
 //insert routes 
